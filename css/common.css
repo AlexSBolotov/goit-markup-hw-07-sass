@@ -1,0 +1,48 @@
+body {
+  background-color: var(--white-color);
+
+  color: var(--main-text-color);
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  /* +++++++++++++++++++++++++++++++++ПРИБРАТИ!!!!!!!!! */
+  width: 100%;
+}
+address {
+  font-style: normal;
+}
+button {
+  cursor: pointer;
+}
+textarea {
+  resize: none;
+}
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+.list {
+  list-style: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}

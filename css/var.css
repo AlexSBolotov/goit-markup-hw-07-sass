@@ -1,0 +1,14 @@
+:root {
+  --main-text-color: #2e2f42;
+  --paragraph-text-color: #434455;
+  --accent-color: #404bbf;
+  --accent-color-add: #4d5ae5;
+  --white-color: #ffffff;
+  --not-white-color: #f4f4fd;
+  --additional-not-white-color: #e7e9fc;
+  --footer-bgc: #2e2f42;
+  --hero-bgc: rgba(46, 47, 66, 0.7);
+  --customers-color: #8e8f99;
+  --not-green-color: #31d0aa;
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
