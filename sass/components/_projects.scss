@@ -1,0 +1,26 @@
+@import "../utils/var";
+@import "../utils/placeholders";
+@import "../utils/mixins";
+
+.projects-section {
+  display: none;
+  @include section;
+}
+.projects-container {
+  @extend %container;
+}
+.projects-title {
+  @include sectionTitle;
+}
+.projects-list {
+  @extend %list;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 1200px) {
+  .projects-section {
+    display: block;
+    padding-top: 0;
+  }
+}

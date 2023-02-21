@@ -1,0 +1,55 @@
+@import "../utils/var";
+@import "../utils/placeholders";
+@import "../utils/mixins";
+
+.team-section {
+  @include section;
+  background-color: $colorNotWhite;
+}
+.team-container {
+  @extend %container;
+}
+.team-section-title {
+  @include sectionTitle;
+}
+.team-list {
+  @extend %list;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  gap: 72px;
+}
+
+.team-list-item {
+  width: 264px;
+
+  background-color: $colorWhite;
+  box-shadow: $shadowTeam;
+  border-radius: 0px 0px 4px 4px;
+}
+.team-card-content {
+  padding: 32px 16px;
+
+  text-align: center;
+}
+.team-section-subtitle {
+  @include sectionSubtitle;
+}
+.team-section-text {
+  @include sectionText;
+}
+.team-socials {
+  @extend %list;
+  @include socials;
+}
+.team-socials-item {
+  @include socials-item;
+  &:hover,
+  &:focus {
+    background-color: $colorAccent;
+  }
+}
+.team-socials-icon {
+  @include socialsIcon;
+}

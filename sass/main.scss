@@ -1,9 +1,7 @@
-body {
-  background-color: #fff;
-}
-.container {
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  background-color: aqua;
-}
+@import "./utils/var";
+@import "./utils/placeholders";
+@import "./utils/mixins";
+@import "./components/hero";
+@import "./components/features";
+@import "./components/projects";
+@import "./components/team";

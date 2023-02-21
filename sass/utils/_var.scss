@@ -1,0 +1,23 @@
+$colorAccent: #404bbf;
+$colorMainText: #2e2f42;
+$colorParagraphText: #434455;
+$colorAccentAdd: #4d5ae5;
+$colorWhite: #ffffff;
+$colorNotWhite: #f4f4fd;
+$colorNotWhiteAdd: #e7e9fc;
+$colorBgHero: rgba(46, 47, 66, 0.7);
+$colorBgFooter: #2e2f42;
+$colorCustomers: #8e8f99;
+$colorNotGreen: #31d0aa;
+
+$shadowLow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+$shadowTeam: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+  0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+$shadowModal: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+  0px 2px 1px rgba(0, 0, 0, 0.2);
+$shadowPortfolioBtn: 0px 1px 1px rgba(0, 0, 0, 0.14),
+  0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+$shadowGallery: 0px 1px 6px rgba(46, 47, 66, 0.08),
+  0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+
+$gradientBg: linear-gradient($colorBgHero, $colorBgHero);
